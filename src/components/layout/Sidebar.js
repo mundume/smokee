@@ -8,7 +8,7 @@ FaAd,
 export const Sidebar = () => ( 
 <div className="sidebar" data-testid="sidebar">
     <ul className="sidebar__generic">
-        <li data-testid="inbox" className="inbox"><span><FaInbox/></span><span> Inbox</span></li>
+        <li data-testid="inbox" className="inbox" id="loml"><span><FaInbox/></span><span> Inbox</span></li>
         <li data-testid="today" className="today"><span><FaAd/></span><span>Today</span></li>
       <li data-testid="next_7" className="next_7"> <span><FaAccessibleIcon/></span><span>Next Week</span></li>
     </ul>
